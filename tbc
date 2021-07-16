@@ -3,13 +3,13 @@
 e = e(1)
 pi = 4 * a(1)
 
-define whl(x) # "borrowed" from Wikipedia
+define flr(x) # "borrowed" from Wikipedia
 {
-	auto sexo
-	sexo = scale
+	auto tmp
+	tmp = scale
 	scale = 0
 	x /= 1
-	scale = sexo
+	scale = temp
 	return(x)
 }
 
