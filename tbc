@@ -13,7 +13,7 @@ define flr(x) # "borrowed" from Wikipedia
 	return(x)
 }
 
-define pow(x, y)
+define exp(x, y)
 {
 	return (e(y * l(x)))
 }
